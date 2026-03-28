@@ -65,7 +65,7 @@ The solution implements a layered data architecture:
 ### 3. Data Warehousing – Azure Synapse Analytics
 - **Access Configuration** – Synapse Managed Identity granted Blob Data Contributor role on Silver storage.  
 - **External Tables/Views** – Created over Silver data using `OPENROWSET`.  
-- **Gold Layer Load (Optional)** – Use `CETAS` to persist processed data in Gold storage.
+- **Gold Layer Load (Optional)** – Use `CTAS` to persist processed data in Gold storage.
 
 <img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/d69d287b-8a95-4aeb-b3f5-773fdeba894d" />
 
